@@ -1,0 +1,12 @@
+
+
+/*Header/Nav Bar style*/
+header{
+padding: 20px 35px;
+background-color: #7ddb95;
+display: flex;
+}
+header h1{
+    font-size: 32px;
+    color: white;
+}
