@@ -25,8 +25,8 @@ header h1 {
     font-size: 45px;
     color: white;
     background-color: #B34f53;
-    position: relative; left: -40px;
-    padding: 0px 14px 0px 50px;
+    position: relative; left: -35px;
+    padding: 0px 14px 0px 100px;
 }
 header a {
     text-decoration: none;
@@ -81,7 +81,6 @@ header nav ul li a:hover {
 
 /*About me*/
 .box{
-    display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
 }
@@ -93,10 +92,14 @@ header nav ul li a:hover {
     width: 35%;
     line-height: 1.2;
 }
-.about-para{
-    float: right;
-    width: 40%;
-    margin: 3.5%;
+.about-cta h3{
+    padding-right: 20px;
+    border-right: 3px solid #343635;
+    height: 250px;  
     text-align: right;
-
+    width: inherit;
+    float: left;
 }
+.para{
+    color: #B34f53;   
+} 
