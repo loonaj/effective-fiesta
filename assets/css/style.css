@@ -1,12 +1,70 @@
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'BioRhyme', serif;
+    font-family: 'Hahmlet', serif;
+    font-family: 'Playfair Display', serif;
+}
 
 /*Header/Nav Bar style*/
-header{
-padding: 20px 35px;
-background-color: #7ddb95;
-display: flex;
+header {
+    padding: 20px 35px;
+    background-color:#343635;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative; top: -10px;
+    font-family: 'Hahmlet', Arial, Helvetica, sans-serif;
 }
-header h1{
-    font-size: 32px;
+header h1 {
+    margin: 0;
+    font-size: 45px;
     color: white;
+    background-color: #B34f53;
+    position: relative; left: -40px;
+    padding: 0px 14px 0px 50px;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+header nav {
+    margin: 7px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+header nav ul li a:hover {
+    background:#B34f53;
+    color:white;
+    border-radius: 15px;
+    text-shadow: none;
+}
+/*Header end*/
+
+/*subheader/sibtitle*/
+.sub img {
+    background-image: url(../images/placeimg_1000_200_arch.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    height: auto;
+}
+.sub p {
+    color: #B34f53;
 }
