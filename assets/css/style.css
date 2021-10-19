@@ -8,6 +8,7 @@ body{
     font-family: 'BioRhyme', serif;
     font-family: 'Hahmlet', serif;
     font-family: 'Playfair Display', serif;
+    overflow-x: hidden; 
 }
 
 /*Header/Nav Bar style*/
@@ -21,7 +22,6 @@ header {
     font-family: 'Hahmlet', Arial, Helvetica, sans-serif;
 }
 header h1 {
-    margin: 0;
     font-size: 45px;
     color: white;
     background-color: #B34f53;
@@ -58,13 +58,45 @@ header nav ul li a:hover {
 /*Header end*/
 
 /*subheader/sibtitle*/
-.sub img {
-    background-image: url(../images/placeimg_1000_200_arch.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    max-width: 100%;
-    height: auto;
+.sub{
+    position: relative;
+    text-align: center;
+    margin: -12px;
 }
-.sub p {
+.sub img{
+    background-image: url(../images/placeimg_1000_200_any.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+.sub h2{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 16px;
+    color: white;
+    background-color: #B34f53;
+    font-family: 'BioRhyme', Arial, Helvetica, sans-serif;
+}
+
+/*About me*/
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.about-cta {
     color: #B34f53;
+    font-size: 50px;
+    text-align: left;
+    margin: 3.5%;
+    width: 35%;
+    line-height: 1.2;
+}
+.about-para{
+    float: right;
+    width: 40%;
+    margin: 3.5%;
+    text-align: right;
+
 }
