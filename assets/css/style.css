@@ -5,12 +5,8 @@
     padding: 0;
 }
 body{
-    font-family: 'BioRhyme', serif;
-    font-family: 'Hahmlet', serif;
-    font-family: 'Playfair Display', serif;
     overflow-x: hidden; 
 }
-
 /*Header/Nav Bar style*/
 header {
     padding: 20px 35px;
@@ -19,7 +15,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     position: relative; top: -10px;
-    font-family: 'Hahmlet', Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header h1 {
     font-size: 45px;
@@ -76,30 +72,68 @@ header nav ul li a:hover {
     font-size: 16px;
     color: white;
     background-color: #B34f53;
-    font-family: 'BioRhyme', Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/*About me*/
-.box{
-    flex-wrap: wrap;
-    align-items: flex-start;
+/*Section titles and border*/
+.section-title {
+    text-align: end;
+    font-size: 60px;
+  }
+  
+.primary-border {
+    border-right: 4px solid #343635;
+    height: 270px;
+    padding: 10px 15px;
+    width: 235px;
+  }
+.column1{
+    color: #B34f53; 
+    padding: 8px 50px;
+    margin: 20px -20px;
 }
-.about-cta {
+
+/*about me*/
+.row{
+    display: flex;
+}
+.row p{
     color: #B34f53;
-    font-size: 50px;
-    text-align: left;
-    margin: 3.5%;
-    width: 35%;
-    line-height: 1.2;
+    margin: 20px -10px;
+    font-size: 20px;
+    padding: 15px 8px;
+
 }
-.about-cta h3{
-    padding-right: 20px;
-    border-right: 3px solid #343635;
-    height: 250px;  
-    text-align: right;
-    width: inherit;
-    float: left;
+
+/*Work*/
+.main{
+    display: flex;
 }
-.para{
-    color: #B34f53;   
-} 
+.main li{
+    list-style-type: none;
+}
+.image{
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+.main ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+/*Contact me*/
+.reach h3{
+    padding: 10px 15px;
+}
+.reach{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+.reach p, a{
+    color: #B34f53;
+    font-size: 30px;
+    text-decoration:underline ;
+}
