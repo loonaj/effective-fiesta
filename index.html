@@ -3,41 +3,39 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>J</title>
+    <title>Jasmin's Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
-<body>
 
-<!--Navigation/Header-->
+<body>
+    <!--Navigation/Header-->
 <header>
-    <h1> Jasmin</h1>
+<h1> 
+    <a href= "https://loonaj.github.io/portfolio-project/"
+    >Jasmin Beltran </a>
+</h1>
     <nav>
-        <ul>
-            <li>
-                <a href="#about-me"> About Me</a>
-            </li>
-            <li>
-                <a href="#work"> Work</a>
-            </li>
-            <li>
-                <a href="#contact-me"> Contact Me</a>
-            </li>
-            <li>
-                <a href="#resume">  Resume</a>
-            </li>
+    <ul>
+        <li>
+            <a href="#about-me"> About Me</a>
+        </li>
+        <li>
+            <a href="#work"> Work</a>
+        </li>
+        <li>
+            <a href="#contact-me"> Contact Me</a>
+        </li>
         </ul> 
     </nav>
 </header>
 
-<section class="sub">
-    <img src="./assets/images/placeimg_1000_200_any.jpg"  alt="cutoff of a man walking">
-     <h2> Every journey has its final day. Don't rush! </h2>
-</section>
+<!--hero-->
+<section class="hero"></section>
 
 <!--About me-->
-<section id="about-me" class="row">
-<div class="column1"> 
-    <h3 class="section-title primary-border"> About Me </h3> </div>
+<section id="about-me" class="section-container">
+ <h1 class="section-title">About Me</h1>
+  <div class="section-content">
     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -52,48 +50,65 @@
 
 
 <!--Work-->
-<section id="work" class="main">
-    <div class="column1">
-    <h3 class="section-title primary-border"> Work </h3> </div>
-    <div class="images">
-<ul>
-    <li> 
-        <img src="./assets/images/placeimg_640_450_any.jpg" class="image1" alt="men walking in suits with grey monotone background">
-    </li>
-</ul>
-<ul>
-    <li>
-        <img src="./assets/images/218-430x150.jpg" class="image2" alt="ocean running between bottom of 2 mountains">
-    </li>
-    <li>
-        <img src="./assets/images/67-430x150.jpg" class="image3" alt="black and white hill">
-    </li>
-    <li>
-        <img src="./assets/images/372-430x150.jpg" class="image4" alt="lifesavers hut on beach">
-    </li>
-    <li>
-        <img src="./assets/images/451-430x150.jpg" class="image5" alt="motel sign">
-    </li>
-</ul>
-    
-
-</section>
+<section id="work" class="section-container">
+    <h1 class="section-title"> Work </h1>
+    <article class="section-content">
+        <div class="grid-container">
+ <a
+            class="grid-item large run-buddy"
+            href="https://loonaj.github.io/Run-Buddy/""
+            target="_blank"
+          >
+            <div class="blue-background">
+              <h2>Run Buddy</h2>
+              <p>html/css</p>
+            </div>
+          </a>
+          <a
+            class="grid-item password-gen"
+            href="https://loonaj.github.io/password-gen//"
+            target="_blank"
+          >
+            <div class="blue-background">
+              <h2>Password generator</h2>
+              <p>JavaScript</p>
+            </div>
+          </a>
+          <a
+            class="grid-item mini-quiz"
+            href="https://loonaj.github.io/mini-quiz/""
+            target="_blank"
+          >
+            <div class="blue-background">
+              <h2>Quiz</h2>
+              <p>JavaScript/CSS</p>
+            </div>
+          </a>
+        </div>
+      </article>
+    </section>
 
 
 <!--Contact-->
 <footer>
-<section id="contact-me" class="reach">
-    <div class="column1">
-    <h3 class="section-title primary-border">Contact <br>Me<br></h3> </div>
-    <p> 555.555.555 </p>
-    <a href="" >Website</a>
-    <a href="https://github.com/loonaj">Github</a>
-    <a href="https://open.spotify.com/user/xoxo.jasmin">Spotify</a>
-
-
-
-                </div>  
-            </section>
-        </footer>
-    </body>
+<section id="contact-me" class="section-container">
+    <h1 class="section-title"> Contact Me </h1>
+    <article class="section-content">
+        <div>
+            <a href="tel:8018143191">801.814.3191</a>
+          </div>
+          <div>
+            <a href="https://github.com/jcorum11" target="_blank">GitHub</a>
+          </div>
+          <div>
+            <a href="https://open.spotify.com/user/12161372734" target="_blank"
+              >Spotify</a
+            >
+          </div>
+        </article>
+      </section>
+  
+    </section>
+</footer>
+</body>
 </html>
