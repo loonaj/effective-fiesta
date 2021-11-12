@@ -6,21 +6,19 @@
 }
 
 :root {
-    --blue-black: #334a6b;
+    --green-1: #53845D;
     --blue-white: #d5dfed;
-    --navy: #2c3642;
-    --light-blue: #9ad6d2;
+    --light-blue: #ffffff;
     --sage-green: #81ce87; 
 }
 
 body {
-    color: var(--blue-black);
+    color: var(--green-1);
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--blue-white);
 }
 
 header {
-    background-color: var(--navy);
+    background-color: var(--green-1);
     padding: 20px 0 20px 0;
 }
 
@@ -33,7 +31,7 @@ header h1 {
 
 header h1 a {
     text-decoration: none;
-    color: var(--navy);
+    color: var(--green-1);
 }
 
 nav ul {
@@ -70,15 +68,15 @@ nav ul li a {
 
 .hero div {
     background: var(--light-blue);
-    color: var(--blue-black);
+    color: var(--green-1);
     padding: 5px;
     border-bottom-left-radius: 10px;
 }
 
 .section-title {
     text-align: center;
-    border-bottom: 5px solid var(--blue-black);
-    border-top: 5px solid var(--blue-black);
+    border-bottom: 5px solid var(--green-1);
+    border-top: 5px solid var(--green-1);
     background-color: var(--light-blue);
 }
 
@@ -96,10 +94,6 @@ nav ul li a {
     text-align: center;
 }
 
-#work {
-    background: var(--navy);
-}
-
 .grid-container {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -107,7 +101,7 @@ nav ul li a {
 }
 
 .grid-item {
-    border: 2px solid var(--navy);
+    border: 2px solid var(--green-1);
     margin: 20px;
     padding: 30px 30px 30px 0;
     background-size: 200%;
@@ -117,7 +111,7 @@ nav ul li a {
 
 .section-content a {
     text-decoration: none;
-    color: var(--blue-black);
+    color: var(--green-1);
 }
 
 .run-buddy {
@@ -147,7 +141,7 @@ nav ul li a {
 
 #contact-me .section-content a {
     font-size: large;
-    border-bottom: 2px solid var(--blue-black);
+    border-bottom: 2px solid var(--green-1);
     line-height: 2.0;
     padding: 10px;
 }
@@ -216,12 +210,11 @@ nav ul li a {
     }
 
     .section-container h1 {
-        background-color: var(--blue-white);
         border: none;
         margin-left: 100px;
         padding-right: 20px;
         text-align: right;
-        border-right: 5px solid var(--blue-black);
+        border-right: 5px solid var(--green-1);
         width: 200px;
     }
 
@@ -230,11 +223,8 @@ nav ul li a {
         margin-left: 20px;
     }
 
-    #work {
-        background: var(--blue-white)
-    }
 
-    #work .blue-background {
+    #work .background {
         background: rgba(154, 214, 210, 0.85)
     }
 
