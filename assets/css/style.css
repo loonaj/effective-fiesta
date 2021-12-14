@@ -129,6 +129,11 @@ nav ul li a {
     background-size: cover;
 }
 
+.project-1 {
+    background-image: url("../images/project1.jpg");
+    background-size: cover;
+}
+
 .blue-background {
     background-color: var(--light-blue);
     padding: 20px;
